@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.2;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+
+
+p span:first-child {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.bgimg-1 {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5) 20%, rgba(255, 0, 0, 0) 80%);
+  background-size: 100px 50px;
+  background-position: 0% 50%;
+  background-repeat: repeat;
+  background-blend-mode: multiply;
+}
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("img/war_woman1.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.mapbackground {
+  background-color: #e7e7e7;
+}
+
+blockquote {
+  font-size: 32px;
+  font-style: italic;
+  font-family: "Raleway";
+  padding: 0% 10%;
+}
+
+
+#myNavbar {
+  transition: background-color 0.5s;
+}
+
+.w3-white {
+  background-color: #fff;
+  opacity: 1;
+}
+
+.greyimage {
+filter: grayscale(80%);
+
+  }
+
+  hr {
+      height:5px;
+      width: 100%;
+  }
+
+</style>
+</head>
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top" id="myTopnav">
+    <div class="w3-bar w3-card w3-opacity w3-hover-opacity-off" id="myNavbar">
+      <a href="#home" class="w3-bar-item w3-button w3-opacity w3-hover-opacity-off w3-wide">RED LINES</a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
+        <a href="#about" class="w3-bar-item w3-button">HOME</a>
+        <a href="#map" class="w3-bar-item w3-button"></i>MAP</a>
+
+        <a href="#team" class="w3-bar-item w3-button"></i>AUTHOR</a>
+        <a href="#pricing" class="w3-bar-item w3-button"></i>BUY BOOK</a>
+        <a href="#contact" class="w3-bar-item w3-button"></i> CONTACT</a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+    <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+    <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  </nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding: 45% 5% 20%">
+    <span class="w3-jumbo w3-hide-small w3-red">Red Lines:</span><br>
+      <span class="w3-xxxlarge w3-hide-small">Unruly War: Rape, Race and U.S. Military Justice in World War II</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Red Lines:</span><br>
+    <span class="w3-large"><i>Excerpt by Ruth Lawlor</i></span>
+  <!--   <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+-->
+  </div>
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:28px 10%" id="about">
+
+  <div class="w3-row-padding " style="padding:28px 10%">
+    <p><span>W</span>hen American forces broke through German resistance in the spring of 1945, U.S. Army
+commanders began to worry about rising reports of sexual violence. “Since the entry into
+Germany by the Seventh Army the number of cases of rape have increased greatly,” General
+Alexander Patch reported. “The situation is one in which it is believed emergency action is
+required.”
+1 Omar Bradley, commander of the largest group of armies on the continent, warned
+</p>
+
+<p>
+General Dwight D. Eisenhower that “certain conditions of looting, pillaging, wanton destruc-
+tion, rape and other crimes” were widespread.2 By the time of his writing, in April 1945, some
+
+500 reports of rape per week were flooding into the Judge Advocate General’s office.
+    </p>
+
+    <p>
+      An after-action report would later confirm these concerns: “We were members of a conquer-
+      ing army and we came as conquerors. The rates of reported rapes sprang skyward.” This report
+
+      acknowledged that many more rapes occurred than were reflected in general court-martial
+      records, which listed 552 trials for Germany as a whole until the end of the war. </p>
+
+      <p>The Judge
+
+      Advocate said that not more than 25 percent of reported cases ever made it to trial.4 The sit-
+      uation was “ripe for violent sex crimes,” the report concluded, and “the avalanche came.”
+    </p>
+
+
+    <p>
+      The history of Allied sexual violence in Nazi Germany is a troubled one. Numerous histo-
+      rians have documented the extensive sexual assaults that German women suffered at war’s end;
+
+      in popular memory, this history is associated above all with the Soviet “Rape of Berlin,” though
+      French and American troops were also regularly accused of gendered violence.
+
+    </p>
+
+    <p>After
+
+      Germany’s defeat in 1945, such stories of sexual violation would be transformed into a mythol-
+      ogy of national violation that was effectively racialized and put toward neo-fascist ends.
+    </p>
+    <p>
+      <blockquote>  “We were members of a conquering army and we came as conquerors. The rates of reported rapes sprang skyward.”
+      </blockquote>
+      <p> This
+
+      prospect was immediately discernible to black soldiers and journalists on the ground in
+
+      Germany in the spring of 1945, who saw how the U.S. Army’s commitment to Jim Crow seg-
+      regation—including prohibitions on sex and fraternization across the color line—aligned with pre-existing German fears of black men to create a situation in which African American GIs
+could be disproportionately tried for and convicted of rape, even when their sexual encounters
+were consensual.
+    </p>
+
+    <p>
+      This was, after all, how the sexual color line had worked stateside, in the American South,
+      where 80 percent of black GIs trained, as well as in Britain and France, where African American
+      soldiers made up about 10 percent of total U.S. troop strength.
+      <p>In France, the extent
+        of racial scapegoating was especially staggering, as black GIs accounted for 77 percent of
+        rape convictions, and army authorities, in unison with local French mayors, denounced
+        what they called the “black terror on the Bocage.”
+
+      </p>White American commanders
+      worried incessantly about sexual encounters between black men and white women as African
+      American demands for civil rights grew louder.
+    </p>
+
+    <p>Children born from interracial relationships,
+      they feared, would undermine white supremacy and the black/white racial ordering of the
+      United States. For this reason, the army policed sexual crimes (including consensual acts across
+
+      the color line deemed criminal by miscegenation laws in the United States or by military reg-
+      ulations in the European Theater) far more aggressively than other crimes. </p>
+
+      <p>The weight of that
+
+      power landed disproportionately on black soldiers, who were widely blamed for episodes of
+      rape, and not infrequently sentenced to death on little or no evidence.
+    </p>
+
+    <p>In France, the extent
+      of racial scapegoating was especially staggering, as black GIs accounted for 77 percent of
+      rape convictions, and army authorities, in unison with local French mayors, denounced
+      what they called the “black terror on the Bocage.”
+
+    </p>
+
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container mapbackground" id="map" style="padding:64px 16px">
+  <div class="w3-row-padding">
+
+
+<div style="min-height:791px" id="datawrapper-vis-y2Dj8"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/y2Dj8/embed.js" charset="utf-8" data-target="#datawrapper-vis-y2Dj8"></script><noscript><img src="https://datawrapper.dwcdn.net/y2Dj8/full.png" alt="" /></noscript></div>
+</div>
+</div>
+
+<div class="w3-container" style="padding:28px 10%" id="about">
+
+  <div class="w3-row-padding " style="padding:28px 10%">
+
+
+    <p> Watching the same white supremacist
+
+      dynamics endemic to the United States now playing out across the Atlantic, the NAACP com-
+      plained that black soldiers were being “railroaded to prison,” while journalists involved in the
+
+      Double V campaign described a process akin to legal lynching: as one correspondent for the
+      Chicago Defender put it, “Death has become the penalty for crossing the color line.”
+    </p>
+
+    <p>
+      But when the army entered Germany, the picture grew more complicated.
+
+    </p>
+
+    <p>As reports of rape
+      increased, the claims were more clearly tied to combat troops on the tip of the spear, not the
+      supporting units at the rear, where most African American troops had been shunted into
+      menial jobs. In other words, army commanders were faced with substantive evidence that
+      those responsible for this latest spate of violence were overwhelmingly white.
+    </p>
+
+    <p>
+      Nonetheless, U.S. military officials at first tried to assign primary blame for sexual crimes in
+      Germany to black soldiers. Many of the cases that occurred during the invasion, ventured one report,
+      were caused “by negro troops in convoys en route back from the front.”
+
+    </p>
+
+    <p>Common racist assump-
+      tions held by many white Americans and Europeans alike—that rape was something black men
+
+      “couldn’t help,” as one woman put it in a letter to the director of the NAACP—further enabled
+      such scapegoating.13 As one German woman explained to a court-martial, “It was best not to resist
+      [black soldiers]; otherwise we would be killed. Everybody talked about that.”
+    </p>
+  <p>
+      While sexual violence by black men was portrayed as something inherent and uncontrolla-
+      ble, it was simultaneously rendered exceptional for white men, an aberration triggered by their
+
+      exposure to war. This was the case for Clayton Austin, a white GI who perpetrated at least six
+      assaults against three teenage girls in the midst of battle.
+    </p>
+
+    <blockquote>
+      "White soldiers’ sexual violence was perceived as excusable and unremarkable, while black men’s...was treated as a deeper injury that warranted the harshest punishment."
+    </blockquote>
+    <p>
+      The Staff Judge Advocate, the legal
+      advisor for Austin’s division, condemned Austin’s “violent and lustful course of conduct”
+      and referred him for psychiatric testing, concluding that he must have lost his mind. Even
+      Austin’s victims appealed for clemency for him, stating their belief that “this incident would
+      never have occurred had he not been intoxicated, the blame for which can be put on the
+      war.”
+
+    </p>
+
+    <p> Watching these disparate narratives develop, the Chicago Defender decried such a “dou-
+      ble standard of morals” by which white soldiers’ sexual violence was perceived as excusable and
+
+      unremarkable, while black men’s purported sexual aggression was treated as a deeper injury
+
+      that warranted the harshest punishment. The true crime here, argued the leading black news-
+      paper, was the extension of Jim Crow overseas and into “the field of sex.”
+    </p>
+
+
+
+    <p>
+      Nevertheless, the army’s efforts to racialize sexual crimes in Germany ultimately proved less
+      successful than they had been elsewhere, leading to an unexpectedly steep and sudden decline
+      in prosecutions of black soldiers. As German women were called upon to testify in American
+
+      courts, they emphasized their helplessness in the face of a conquering army, ultimately convinc-
+      ing Army legal officials that almost all sexual encounters between occupier and occupied could
+
+      constitute rape.
+    </p>
+
+    <p> During one trial, a woman challenged the prevailing assumption that only
+      evidence of a physical struggle could substantiate a charge of rape by posing the question:
+      “what does force mean?”
+
+    </p>
+
+        <p> In another case, when Greta Schmitz was asked whether she “will-
+      fully consent[ed] to any of the acts of intercourse,” she responded bluntly: “That is a dumb
+
+      question.”
+    </p>
+
+    <p>If she wanted sex, she said, she could have just “taken a German soldier.”
+    </p>
+
+    <p> This,
+      she insisted, was rape, and the court should not require physical evidence to prove it; structural
+      conditions, the obvious vulnerability of German women to an invading army, should have been
+      sufficient.
+    </p>
+
+      </div>
+      </div>
+    </div>
+      <div class="w3-container mapbackground" id="map" style="padding:58px 5%" id="about">
+
+    <div style="min-height:356px" id="datawrapper-vis-zIPFY"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/zIPFY/embed.js" charset="utf-8" data-target="#datawrapper-vis-zIPFY"></script><noscript><img src="https://datawrapper.dwcdn.net/zIPFY/full.png" alt="" /></noscript></div>
+</div>
+      <div class="w3-row-padding " style="padding:28px 10%">
+
+    <p>
+        German women’s testimony in American courts ultimately convinced army legal officials
+        that an enemy soldier was frightening, no matter his race.
+
+      </p>
+      <p>
+        As one judge advocate put it, “a
+        man who enters a strange house, carrying a loaded rifle in one hand, is not justified in believing
+        that he has accomplished a seduction on the other hand.”
+
+      </p>
+
+      <p>This kind of language was unheard
+        of in military courts elsewhere in Europe; ironically, it had resonance in Germany only because
+
+        German women were enemies, and were therefore justified in their belief that American weap-
+        ons might be used against them.
+      </p>
+      <p>
+        French and British women, as allies, were not entitled to hold
+
+        the same fear when encountering white American soldiers.
+      </p>
+
+      <p> As legal officials began to take seri-
+        ously German women’s claims of rape against white men, they struggled to uphold the color
+
+        line in ways they previously had.
+      </p>
+      <p>As a result, white soldiers received almost three times as
+        many convictions for rape as they had in France.
+
+      </p>
+
+      <blockquote>
+        As legal officials began to take German women’s claims seriously, they struggled to uphold the color line
+        </blockquote>
+      <p>
+
+      Rather than facing the prospect of hundreds of white American soldiers imprisoned for
+assaulting German women, and fearing a public outcry back in the United States, the
+Undersecretary of War Robert Patterson pushed for universal clemency, warning that he did
+
+not want the War Department to be “flooded with demands for immediate reduction in sen-
+tences in cases where they cannot be defended.”
+</p>
+<p>
+At the end of the hostilities, the Army
+Clemency Board revoked the death sentences of all soldiers convicted of rape in Germany
+and reduced the prison sentences of many more.
+
+</p>
+<p>Black soldiers benefitted from this policy
+even though it was not intended for them.
+</p>
+
+<p>From their perspective, the encounter between
+white American commanding officers and German, potentially Nazi, women revealed that
+the bonds of whiteness often transcended wartime enmity.
+
+</p>
+<p> Nonetheless, it was the objections
+of these same enemy women that worked to undermine the color line in wartime Europe,
+which, for a time at least, had cracked under the weight of too many countervailing
+assumptions.
+          <p>
+
+            <br>
+          <hr>
+            <br>
+
+  </div>
+</div>
+<!-- Team Section -->
+
+  <div class="w3-container w3-light-grey">
+<div  style="padding:64px 76px" id="team">
+  <h3 class="w3-center">About the Author</h3>
+
+    <div class="w3-row-padding">
+      <div class="w3-threequarter">
+        <h3>Ruth Lawlor</h3>
+        <h4> Assistant History Professor, Cornell University</h4>
+        <p>
+          I am a historian of U.S. foreign relations, and here at Cornell I teach classes on diplomatic, military and global history.
+      </p>
+      <p>
+          I was previously a visiting fellow at Yale and Boston Universities, and have spent the past number of years teaching American and European History at the University of Cambridge, where I also received my PhD.
+        </p>
+        <p>
+        </p>
+          <p><a href="https://history.cornell.edu/ruth-lawlor" class="w3-button w3-black"><i class="fa fa-th"> </i>Read More</a></p>
+      </div>
+      <div class="w3-quarter">
+        <img class="w3-image " src="img/headshot.jpg" alt="Buildings" width="100%" height="100%">
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:64px 116px" id="work">
+  <h3 class="w3-center">OTHER WORK </h3>
+  <p class="w3-center w3-large">BY RUTH LAWLOR</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3">
+      <img src="img/book1.jpg" style="width:90%"  onclick="onClick(this)" class="w3-hover-opacity " alt="A microphone">
+      <p> <i><br><b> 26 May 2021</i><br>Journal Article: "The Wartime Battlefield of Sex"<br>  <br><a href="https://www.cambridge.org/core/journals/modern-american-history/article/abs/wartime-battlefield-of-sex/08C5AC8B7C0FACA448B0B18C54326AD3" class="w3-button w3-light-grey"><i class="fa fa-bookmark-o"> </i>Read More</a></p>
+    </div>
+
+    <div class="w3-col l3">
+      <img src="img/book2.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity greyimage" alt="A phone">
+      <p> <i><br><b> 06 December 2021</i><br>Journal Article: "The Stuttgart Incident: Sexual Violence and the Uses of History"  <br><br><a href="https://academic.oup.com/dh/article-abstract/46/1/70/6458054?redirectedFrom=fulltext" class="w3-button w3-light-grey"><i class="fa fa-bookmark-o"> </i>Read More</a></p>
+
+</div>
+    <div class="w3-col l3">
+      <img src="img/book3.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity greyimage" alt="A drone">
+      <p> <i><b> <br>12 January 2021</i><br>Article: "The Experience of Feeling in the Archive"  <br><br><a href="https://history.cornell.edu/ruth-lawlor" class="w3-button w3-light-grey"><i class="fa fa-bookmark-o"> </i>Read More</a></p>
+
+  </div>
+    <div class="w3-col l3">
+      <img src="img/page4.jpg" style="width:90%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+      <p> <i><b> <br><br>12 January 2021</i><br>Bibliography Essay: "Contested Crimes: Race, Gender, and Nation in
+Histories of GI Sexual Violence, World War II"  <br><br><a href="https://history.cornell.edu/ruth-lawlor" class="w3-button w3-light-grey"><i class="fa fa-bookmark-o"> </i>Read More</a></p>
+
+  </div>
+
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:64px 16px" id="pricing">
+  <h2>Buy now</h2>
+  <p class="w3-large">Buy "Unruly War: Rape, Race and U.S. Military Justice in World War II" online</p>
+  <div class="w3-half w3-center w3-row-padding  w3-center" style="margin:0% 25%">
+
+    <div class=" w3-center">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Pre-order</li>
+          <li class="w3-padding-16"><b>  <img src="img/bookcover.jpg" style="width:90%" ></li>
+        <li class="w3-padding-16"><b>Published March 2025</li>
+
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Buy online</button>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-center w3-light-grey" style="padding:68px 16px" id="contact">
+  <h3 class="w3-center">CONTACT THE AUTHOR</h3>
+  <p class="w3-center w3-large"></p>
+  <div style="margin-top:64px">
+    <p><i class="w3-center fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Cornell University, US</p>
+    <p><i class=" w3-center fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 607-255-8862</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: rgl79@cornell.edu</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name= "Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+<script>
+  window.addEventListener('scroll', function() {
+    var navbar = document.getElementById('myNavbar');
+    var navbarTop = navbar.offsetTop;
+    var coverPhotoHeight = document.getElementById('home').offsetHeight;
+    var scrollPosition = window.scrollY;
+
+    if (scrollPosition >= coverPhotoHeight - navbarTop) {
+      navbar.classList.remove('w3-opacity');
+      navbar.classList.add('w3-white');
+    } else {
+      navbar.classList.add('w3-opacity');
+      navbar.classList.remove('w3-white');
+    }
+  });
+</script>
+
+</body>
+</html>
